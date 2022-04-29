@@ -6,13 +6,6 @@ on:
   pull_request:
     branches:
     - main
-  workflow_dispatch:
-    inputs:
-      userName:
-        description: "Username"
-        required: true
-        default: "Diablo"
-
 jobs:
   print-hello:
     runs-on: ubuntu-latest
