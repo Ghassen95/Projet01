@@ -6,7 +6,7 @@ jobs:
     steps:
       - run: echo "Hello, world"
 
-name: vars-test
+name: varstest
 on:
   push
 env:
