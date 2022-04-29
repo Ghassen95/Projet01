@@ -1,0 +1,15 @@
+name: actions-test
+on: 
+  push:
+    branches:
+    - master
+  pull_request:
+    branches:
+    - main
+
+jobs:
+  print-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello, world"
+
